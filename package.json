@@ -1,0 +1,31 @@
+{
+  "name": "criando-uma-api-rest-com-express",
+  "version": "1.0.0",
+  "description": "Exemplo de API REST escrita em Express.",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-plugin-jest": "^24.4.0",
+    "jest": "^27.1.1",
+    "nodemon": "^2.0.12",
+    "supertest": "^6.1.6"
+  },
+  "scripts": {
+    "start": "make start",
+    "test": "make test"
+  },
+  "keywords": [
+    "api",
+    "express",
+    "node",
+    "nodejs",
+    "rest"
+  ],
+  "author": "Giovanni Nunes",
+  "license": "GPL-3.0-or-later"
+}
